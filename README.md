@@ -285,3 +285,78 @@ Yes! UnrealMCP is open-source. Free to use in personal and commercial projects.
 | **Discord Community** | [discord.gg/ThkpVxdzet](https://discord.gg/ThkpVxdzet) |
 | **GitHub Issues** | [github.com/kvick-games/UnrealMCP/issues](https://github.com/kvick-games/UnrealMCP/issues) |
 | **Unreal Forums** | [forums.unrealengine.com](https://forums.unrealengine.com) |
+
+## FAQ
+
+### What is UnrealMCP?
+
+UnrealMCP is an MCP (Model Context Protocol) plugin that allows AI agents to control Unreal Engine projects. It bridges AI assistants like Claude Code directly to Unreal's editor, enabling autonomous development workflows.
+
+### Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **Blueprint Control** | Create, modify, and delete blueprints via AI |
+| **Actor Manipulation** | Spawn, move, rotate actors in scenes |
+| **Asset Management** | Import, organize, and manage project assets |
+| **Code Generation** | Generate C++ and Blueprint code |
+| **Scene Editing** | Level design through AI commands |
+| **Real-time Preview** | Live updates in Unreal Editor |
+
+### Installation
+
+```bash
+# Clone repository
+git clone https://github.com/kvick-games/UnrealMCP.git
+
+# Copy to Unreal Plugins folder
+cp UnrealMCP /path/to/YourProject/Plugins/
+```
+
+### Requirements
+
+| Requirement | Version |
+|-------------|---------|
+| **Unreal Engine** | 5.0+ |
+| **MCP Client** | Claude Code, Cursor, or compatible |
+| **Python** | 3.8+ |
+
+### Configuration
+
+1. Enable plugin in Unreal Editor (Edit → Plugins → UnrealMCP)
+2. Start MCP server connection
+3. Configure your AI agent with UnrealMCP endpoint
+
+### MCP Tools Available
+
+| Tool | Purpose |
+|------|---------|
+| `spawn_actor` | Create new actors in scene |
+| `move_actor` | Move actors to new positions |
+| `create_blueprint` | Generate new blueprint classes |
+| `import_asset` | Import assets to project |
+| `get_scene_info` | Query current scene state |
+| `save_level` | Save current level |
+
+### Use Cases
+
+- **Game Development**: Automate repetitive level design tasks
+- **Prototyping**: Rapid iteration with AI assistance
+- **Testing**: Generate test scenarios automatically
+- **Documentation**: AI-powered asset naming and organization
+
+### Is UnrealMCP Free?
+
+Yes! UnrealMCP is open-source. Free to use in personal and commercial projects.
+
+### Project Status
+
+⚠️ **VERY WIP REPO** - Active development. Features may change. Contributions welcome!
+
+### Help & Resources
+
+| Resource | Link |
+|----------|------|
+| **Discord Community** | [discord.gg/ThkpVxdzet](https://discord.gg/ThkpVxdzet) |
+| **GitHub Issues** | [github.com/kvick-games/UnrealMCP/issues](https://github.com/kvick-games/UnrealMCP/issues) |
+| **Unreal Forums** | [forums.unrealengine.com](https://forums.unrealengine.com) |
